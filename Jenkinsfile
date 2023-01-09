@@ -2,7 +2,7 @@ node {
 
     checkout scm
 
-    docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
+    docker.withRegistry('https://registry.hub.docker.com', 'ritikaagarwal01') {
 
         def customImage = docker.build("ritikaagarwal01/nodedocker")
 
